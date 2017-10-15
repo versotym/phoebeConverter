@@ -15,8 +15,8 @@ print('original:  {0}'.format(phoebe_to_convert))
 print('converted: {0}'.format(converted))
 ```
 
->>> original:  Zili bili Det a bapka   
->>> converted: ʒɪlɪ bɪlɪ ɟɛt a bapka   
+\>\>\> original:  Zili bili Det a bapka   
+\>\>\> converted: ʒɪlɪ bɪlɪ ɟɛt a bapka   
 
 
 ### PHP  
@@ -30,5 +30,5 @@ $converted = $p->convert($phoebe_to_convert, 'ipa');
 echo('original: ' . $phoebe_to_convert . ' ||| converted: ' . $converted);
 ```
 
->>> original:  Zili bili Det a bapka ||| converted: ʒɪlɪ bɪlɪ ɟɛt a bapka
+\>\>\> original:  Zili bili Det a bapka ||| converted: ʒɪlɪ bɪlɪ ɟɛt a bapka
 

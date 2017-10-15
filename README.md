@@ -28,5 +28,5 @@ $phoebe_to_convert = 'Zili bili Det a bapka';
 $converted = $p->convert($phoebe_to_convert, 'ipa');
 echo('original: ' . $phoebe_to_convert . ' ||| converted: ' . $converted);
 
->>> original:  Zili bili Det a bapka ||| beconverted: ʒɪlɪ bɪlɪ ɟɛt a bapka
+>>> original:  Zili bili Det a bapka ||| converted: ʒɪlɪ bɪlɪ ɟɛt a bapka
 ```

@@ -33,8 +33,8 @@ class PhoebeConverter {
 }
 
 // Example
-$p = new PhoebeConverter();
-$phoebe_to_convert = 'Zili bili Ded a bapka';
-$converted = $p->convert($phoebe_to_convert, 'ipa');
-echo('original: ' . $phoebe_to_convert . ' ||| converted: ' . $converted);
+#$p = new PhoebeConverter();
+#$phoebe_to_convert = 'Zili bili Ded a bapka';
+#$converted = $p->convert($phoebe_to_convert, 'ipa');
+#echo('original: ' . $phoebe_to_convert . ' ||| converted: ' . $converted);
 ?>

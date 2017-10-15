@@ -9,17 +9,24 @@
 import phoebeConverter
 
 p = PhoebeConverter()
-phoebe_to_convert = 'Zili bili Ded a bapka'
+phoebe_to_convert = 'Zili bili Det a bapka'
 converted = p.convert(phoebe_to_convert, system='ipa')
 print('original:  {0}'.format(phoebe_to_convert))
 print('converted: {0}'.format(converted))
+  
+>>> original:  Zili bili Det a bapka
+>>> converted: ʒɪlɪ bɪlɪ ɟɛt a bapka
 ```
 
 ### PHP  
 
 ```php
+include_once "phoebeConverter.php";
+
 $p = new PhoebeConverter();
-$phoebe_to_convert = 'Zili bili Ded a bapka';
+$phoebe_to_convert = 'Zili bili Det a bapka';
 $converted = $p->convert($phoebe_to_convert, 'ipa');
 echo('original: ' . $phoebe_to_convert . ' ||| converted: ' . $converted);
+
+>>> original:  Zili bili Det a bapka ||| beconverted: ʒɪlɪ bɪlɪ ɟɛt a bapka
 ```
